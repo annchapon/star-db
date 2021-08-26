@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/star-db/static/css/main.81440e8c.chunk.css",
-    "main.js": "/star-db/static/js/main.f23b17f4.chunk.js",
-    "main.js.map": "/star-db/static/js/main.f23b17f4.chunk.js.map",
+    "main.js": "/star-db/static/js/main.b1d7019a.chunk.js",
+    "main.js.map": "/star-db/static/js/main.b1d7019a.chunk.js.map",
     "runtime-main.js": "/star-db/static/js/runtime-main.c94e37b3.js",
     "runtime-main.js.map": "/star-db/static/js/runtime-main.c94e37b3.js.map",
     "static/js/2.7dff2115.chunk.js": "/star-db/static/js/2.7dff2115.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.c94e37b3.js",
     "static/js/2.7dff2115.chunk.js",
     "static/css/main.81440e8c.chunk.css",
-    "static/js/main.f23b17f4.chunk.js"
+    "static/js/main.b1d7019a.chunk.js"
   ]
 }
