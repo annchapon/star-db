@@ -3,6 +3,7 @@
   margin-left: 0;
 }
 
-.toggle-planet {
+.toggle-planet,
+.error-button {
   margin-bottom: 2rem;
 }
