@@ -6,8 +6,8 @@ import ErrorButton from '../error-button';
 import ErrorIndicator from '../error-indicator';
 import PeoplePage from '../people-page';
 import SwapiService from '../../services/swapi-service';
-import ItemList from '../item-list/item-list';
-import PersonDetails from '../person-details/person-details';
+//import ItemList from '../item-list/item-list';
+//import PersonDetails from '../person-details/person-details';
 
 import './app.css';
 
@@ -54,7 +54,7 @@ export default class App extends Component {
 
         <PeoplePage />
 
-        <div className="row mb2">
+        {/*<div className="row mb2">
           <div className="col-md-6">
             <ItemList 
               onItemSelected={this.onPersonSelected} 
@@ -76,7 +76,7 @@ export default class App extends Component {
           <div className="col-md-6">
             <PersonDetails personId={this.state.selectedPerson} />
           </div>
-        </div>                
+        </div>*/}
       </div>
     );
   }
