@@ -1,13 +1,9 @@
 .row {
+  margin-top: 2rem;
   margin-right: 0;
   margin-left: 0;
 }
 
 .toggle-planet {
   margin-right: 1rem;
-}
-
-.toggle-planet,
-.error-button {
-  margin-bottom: 2rem;
 }
