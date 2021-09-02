@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import ErrorButton from '../error-button';
-import SwapiService from '../../services/swapi-service';
 
 import './item-details.css';
 
@@ -19,8 +18,6 @@ export {
 };
 
 export default class ItemDetails extends Component {
-  swapiService = new SwapiService();
-
   state = {
     item: null,
     image: null
@@ -59,7 +56,7 @@ export default class ItemDetails extends Component {
       return <span>Select a item from a list</span>;
     }
 
-    const { id, name, gender, birthYear, eyeColor } = item;
+    const { name } = item;
 
     return (
       <div className="item-details card">
@@ -70,7 +67,6 @@ export default class ItemDetails extends Component {
         <div className="card-body">
           <h4>{name}</h4>
           <ul className="list-group list-group-flush">
-            {/* { this.props.children } */}
             {
               React.Children.map(this.props.children, (child) => {
                 return React.cloneElement(child, {item});
