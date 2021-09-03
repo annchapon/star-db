@@ -7,9 +7,10 @@ import RandomPlanet from '../random-planet';
 import ErrorBoundry from '../error-boundry';
 //import PeoplePage from '../people-page';
 //import Row from '../row';
-import ItemList from '../item-list';
+//import ItemList from '../item-list';
 import ItemDetails, { Record } from '../item-details/item-details';
 import SwapiService from '../../services/swapi-service';
+import { SwapiServiceProvider } from '../swapi-service-context';
 
 import {
   PersonDetails,
@@ -70,30 +71,32 @@ export default class App extends Component {
 
     return (
       <ErrorBoundry>
-        <div className="stardb-app">
-          <Header />
+        <SwapiServiceProvider value={this.swapiService}>
+          <div className="stardb-app">
+            <Header />
 
-          <PersonDetails itemId={11} />
-          <PlanetDetails itemId={11} />
-          <StarshipDetails itemId={11} />
+            <PersonDetails itemId={11} />
+            <PlanetDetails itemId={11} />
+            <StarshipDetails itemId={11} />
 
-          <PersonList />
-          <StarshipList />
-          <PlanetList />
+            <PersonList />
+            <StarshipList />
+            <PlanetList />
 
-          {/*<Row left={personDetails} right={starshipDetails} />
+            {/*<Row left={personDetails} right={starshipDetails} />
 
-          {planet}
+            {planet}
 
-          <button
-            className="toggle-planet btn btn-warning btn-lg"
-            onClick={this.toggleRandomPlanet}>
-            Toggle Random Planet
-          </button>
-          <ErrorButton />
+            <button
+              className="toggle-planet btn btn-warning btn-lg"
+              onClick={this.toggleRandomPlanet}>
+              Toggle Random Planet
+            </button>
+            <ErrorButton />
 
-          <PeoplePage />*/}
-        </div>
+            <PeoplePage />*/}
+          </div>
+        </SwapiServiceProvider>
       </ErrorBoundry>
     );
   }
