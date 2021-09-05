@@ -8,14 +8,24 @@ const withData = (View) => {
     state = {
       data: null
     };
+
+    componentDidUpdate(prevProps) {
+      if (this.props.getData !== prevProps.getData) {
+        this.update();
+      }
+    }
   
     componentDidMount() {  
+      this.update();
+    }
+
+    update() {
       this.props.getData() // return promise
         .then((data) => {
           this.setState({
             data
           });
-        });
+        });      
     }
 
     render() {
