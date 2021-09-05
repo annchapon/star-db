@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/star-db/static/css/main.dd82d1e2.chunk.css",
-    "main.js": "/star-db/static/js/main.4a027c42.chunk.js",
-    "main.js.map": "/star-db/static/js/main.4a027c42.chunk.js.map",
+    "main.css": "/star-db/static/css/main.d0195e6d.chunk.css",
+    "main.js": "/star-db/static/js/main.f9a1f23e.chunk.js",
+    "main.js.map": "/star-db/static/js/main.f9a1f23e.chunk.js.map",
     "runtime-main.js": "/star-db/static/js/runtime-main.c94e37b3.js",
     "runtime-main.js.map": "/star-db/static/js/runtime-main.c94e37b3.js.map",
-    "static/js/2.51f926fd.chunk.js": "/star-db/static/js/2.51f926fd.chunk.js",
-    "static/js/2.51f926fd.chunk.js.map": "/star-db/static/js/2.51f926fd.chunk.js.map",
+    "static/js/2.31a77055.chunk.js": "/star-db/static/js/2.31a77055.chunk.js",
+    "static/js/2.31a77055.chunk.js.map": "/star-db/static/js/2.31a77055.chunk.js.map",
     "index.html": "/star-db/index.html",
-    "static/css/main.dd82d1e2.chunk.css.map": "/star-db/static/css/main.dd82d1e2.chunk.css.map",
-    "static/js/2.51f926fd.chunk.js.LICENSE.txt": "/star-db/static/js/2.51f926fd.chunk.js.LICENSE.txt"
+    "static/css/main.d0195e6d.chunk.css.map": "/star-db/static/css/main.d0195e6d.chunk.css.map",
+    "static/js/2.31a77055.chunk.js.LICENSE.txt": "/star-db/static/js/2.31a77055.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c94e37b3.js",
-    "static/js/2.51f926fd.chunk.js",
-    "static/css/main.dd82d1e2.chunk.css",
-    "static/js/main.4a027c42.chunk.js"
+    "static/js/2.31a77055.chunk.js",
+    "static/css/main.d0195e6d.chunk.css",
+    "static/js/main.f9a1f23e.chunk.js"
   ]
 }
